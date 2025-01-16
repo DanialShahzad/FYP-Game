@@ -1,0 +1,347 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15776 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Unity/FPSController
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+63189
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Unity/FPSController
+D:/Unity/FPSController
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26884]  Target information:
+
+Player connection [26884]  * "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 1980004328 [EditorId] 1980004328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B874NK3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26884] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26884] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path D:/Unity Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/FPSController/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'D:/Unity Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002382 seconds.
+- Loaded All Assemblies, in  0.449 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.030 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.261 seconds
+Domain Reload Profiling: 2290ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (719ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (310ms)
+				TypeCache.ScanAssembly (289ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1262ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1060ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (339ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 503 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7251 unused Assets / (8.1 MB). Loaded Objects now: 8212.
+Memory consumption went from 322.6 MB to 314.5 MB.
+Total: 13.270700 ms (FindLiveObjects: 0.938400 ms CreateObjectMapping: 0.914900 ms MarkObjects: 6.629200 ms  DeleteObjects: 4.786200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 667406.763214 seconds.
+  path: Assets/Cowsins/Prefabs/Others/UI/DMGPopUp.prefab
+  artifactKey: Guid(74a10d1aa9464994aacf2b45ca48a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/Others/UI/DMGPopUp.prefab using Guid(74a10d1aa9464994aacf2b45ca48a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac37481c2c5d6461ae67e75fe6f15d9') in 0.077502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.811644 seconds.
+  path: Assets/Cowsins/Prefabs/DragAndDropExtras/Bullet Pickeable.prefab
+  artifactKey: Guid(231461d17abfcdf439fa0418137c3556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/DragAndDropExtras/Bullet Pickeable.prefab using Guid(231461d17abfcdf439fa0418137c3556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761b61c9a81306a444e0e49e939147b7') in 1.0752036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.415974 seconds.
+  path: Assets/Cowsins/Prefabs/GraphicsExtra/PistolPickUpGraphics.prefab
+  artifactKey: Guid(648b96c7695310045ab6523fd4a2ed5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/GraphicsExtra/PistolPickUpGraphics.prefab using Guid(648b96c7695310045ab6523fd4a2ed5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c45e6ec108489917d561fac78f3709f') in 0.0811189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cowsins/Prefabs/GraphicsExtra/RocketLauncherPickUpGraphics.prefab
+  artifactKey: Guid(8a7fc9801d722d2438c5a61436ca30a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/GraphicsExtra/RocketLauncherPickUpGraphics.prefab using Guid(8a7fc9801d722d2438c5a61436ca30a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cef8539fcf79de945077a83d6da1d56') in 0.0448202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.077184 seconds.
+  path: Assets/Cowsins/Prefabs/GraphicsExtra/Attachments/DrumMagazine_GraphicsPickUp.prefab
+  artifactKey: Guid(fdab2a4e6f6c01e488f6c76a73dc84c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/GraphicsExtra/Attachments/DrumMagazine_GraphicsPickUp.prefab using Guid(fdab2a4e6f6c01e488f6c76a73dc84c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42111f35e4e2990ab484d7c6a4f5dcef') in 0.020439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cowsins/Prefabs/GraphicsExtra/Attachments/OldScope_GraphicsPickUp.prefab
+  artifactKey: Guid(da10312a8a0d6534280faead4cfc4105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/GraphicsExtra/Attachments/OldScope_GraphicsPickUp.prefab using Guid(da10312a8a0d6534280faead4cfc4105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06ae6c90faff3e41216f1daa3224a496') in 0.0397555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.443105 seconds.
+  path: Assets/Cowsins/Prefabs/GraphicsExtra/OldWeapons/Katana_PickUpGraphics.prefab
+  artifactKey: Guid(34dc0068ee925c44bbaa6249b87c70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/GraphicsExtra/OldWeapons/Katana_PickUpGraphics.prefab using Guid(34dc0068ee925c44bbaa6249b87c70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11d9a5f2897ac2611310d0ee12856f1') in 0.0306259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cowsins/Prefabs/GraphicsExtra/OldWeapons/ShotgunPickUp.prefab
+  artifactKey: Guid(1a01c33d5faf7b4438a0790b28bf8cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/GraphicsExtra/OldWeapons/ShotgunPickUp.prefab using Guid(1a01c33d5faf7b4438a0790b28bf8cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bae52eec3f651880767e0e2afeeac29') in 0.039007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 292
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.959343 seconds.
+  path: Assets/Cowsins/Prefabs/PlayerControllers/StealthStyleFPSController.prefab
+  artifactKey: Guid(c13321c710168c14a83fd1530cbd5ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/PlayerControllers/StealthStyleFPSController.prefab using Guid(c13321c710168c14a83fd1530cbd5ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'e65c80e5a544401773c7329683874860') in 0.7162198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1901
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.422853 seconds.
+  path: Assets/Cowsins/Prefabs/Weapons/KatanaWeapon.prefab
+  artifactKey: Guid(42abd6e325359634480b665a0f19e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/Weapons/KatanaWeapon.prefab using Guid(42abd6e325359634480b665a0f19e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Asset 'NewKatanaAnimatorController': Transition 'reloading -> Idle' in state 'reloading' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1862]
+
+ -> (artifact id: '0bf3e47a542f4e73ea77803d61cd4de3') in 0.089725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 495
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cowsins/Prefabs/Weapons/Shotgun_WeaponObject.prefab
+  artifactKey: Guid(866bf6803807eff4cad16e0ebed2e8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowsins/Prefabs/Weapons/Shotgun_WeaponObject.prefab using Guid(866bf6803807eff4cad16e0ebed2e8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4874c908a98f0030ec0a12e357ac29c3') in 0.1055333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 667
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  1.014 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.036 seconds
+Domain Reload Profiling: 2053ms
+	BeginReloadAssembly (318ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1036ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7251 unused Assets / (8.4 MB). Loaded Objects now: 8318.
+Memory consumption went from 305.2 MB to 296.8 MB.
+Total: 16.744100 ms (FindLiveObjects: 1.206800 ms CreateObjectMapping: 1.820500 ms MarkObjects: 7.831700 ms  DeleteObjects: 5.883100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
