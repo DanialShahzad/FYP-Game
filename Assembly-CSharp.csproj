@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D3337F81-5D60-A687-7783-83C98B0C0A48}</ProjectGuid>
+    <ProjectGuid>{AC6206A4-B7CD-02DA-D271-33922E87EAA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,8 @@
     <Compile Include="Assets\Cowsins\Scripts\PickUpSystem\Interactable.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Utilities\DestroyMe.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Attachment.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIRagdollData.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\Enemies\FlagAttack.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Camera\CameraFOVManager.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Stock.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\RebindUI.cs" />
@@ -82,16 +84,19 @@
     <Compile Include="Assets\Cowsins\Scripts\Weapons\WeaponController.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\UISlot.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Managers\CoinManager.cs" />
+    <Compile Include="Assets\StudioNewPunch\Zombies\Common\maxCamera.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\MainMenuManager.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\DisplayKey.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\DeathRestart.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\WeaponAnimator.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\DeathDemoScript.cs" />
     <Compile Include="Assets\Cowsins\Scripts\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerDeadState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Camera\MoveCamera.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Enemies\TrainingTarget.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\ProceduralShot.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\CrosshairShape.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Classes\BlazeBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\PickUpSystem\Pickeable.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\GetGameInformation.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerStates.cs" />
@@ -99,44 +104,67 @@
     <Compile Include="Assets\Cowsins\Scripts\PickUpSystem\WeaponPickeable.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\CompatibleAttachments.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\BulletUIEffect.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIDistraction.cs" />
+    <Compile Include="Assets\StudioNewPunch\Zombies\Common\jiggleBones.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Enemies\CircularTargetEnemy.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\FleeBehaviour.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Classes\Waypoints.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Destructible.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerStats.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\TurnInvisible.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\GoingToCoverBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Flashlight.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Utilities\LookAt.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Movement\PlayerMovementEditor.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Compass.cs" />
+    <Compile Include="Assets\Scripts\ZombieHitTrigger.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\HealMultiplierPowerUp.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Bullet.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Barrel.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\Crosshair.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerJumpState.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\DropCube.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\Shoot.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerDashState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\WeaponState\WeaponBaseState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\WeaponState\WeaponStates.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\AlertStateBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Inputs\PlayerActions.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Healthpack.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\AttachmentIdentifier_SO.cs" />
+    <Compile Include="Assets\Scripts\GivePlayerDamage.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\GravitonWeapon.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Classes\Vision.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\SpareState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\CowsinsButton.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\WeaponState\WeaponReloadState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\UIEvents.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerStatsEditor.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\DistractedStateBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\PickUpSystem\InteractManagerEditor.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\MoveCharacter.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\WeaponSway.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Managers\InputManager.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\BlazeAI.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Managers\ExperienceManager.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Experience.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\StayInPosition.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerDefaultState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\JumpMotion.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIEnemyManager.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIDistanceCulling.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\UIController.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Scope.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Enemies\TurretProjectile.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Managers\DeviceDetection.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\CompassElement.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\UISway.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\ClickToDistract.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerBaseState.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIGetCoverHeight.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\WeaponState\MeleeState.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\Enemies\PlayHitSound.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Crate.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\AttachmentUIElement.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\WeaponState\WeaponShootingState.cs" />
@@ -144,25 +172,37 @@
     <Compile Include="Assets\Cowsins\Scripts\UI\AttachmentGroupUI.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Magazine.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\ShowAndHide.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\HealthUI.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerDebugger.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\JumpPad.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Movement\PlayerMovement.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\WeaponIdentification.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Managers\GameSettingsManager.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIStateTracker.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\WeaponState\WeaponDefaultState.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\AttackStateBehaviour.cs" />
+    <Compile Include="Assets\Blaze AI\Demos\Assets\Scripts\ChangeState.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\HitStateBehaviour.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\CoverShooterBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Trigger.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAICoverManager.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\NormalStateBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Enemies\IDamageable.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Weapon_SO.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Lootbox.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\CamShake.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Coin.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Enemies\EnemyHealth.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Classes\AudioScriptable.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\HurtTrigger.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\ExplosiveBarrel.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Effects\CameraEffects.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\SurprisedStateBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\Utilities\CowsinsUtilities.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\CompanionBehaviour.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerCrouchState.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Classes\AnimationManager.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerGraphics.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\PauseMenu.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\PowerUp.cs" />
@@ -170,6 +210,9 @@
     <Compile Include="Assets\Cowsins\Scripts\PickUpSystem\BulletsPickeable.cs" />
     <Compile Include="Assets\Cowsins\Scripts\UI\CrosshairShapeEditor.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Weapons\Attachments\Grip.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Behaviours\AlertTagBehaviour.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAIAudioManager.cs" />
+    <Compile Include="Assets\Blaze AI\Scripts\Additive Scripts\BlazeAISpareState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\PointCapture.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Player\PlayerState\PlayerClimbState.cs" />
     <Compile Include="Assets\Cowsins\Scripts\Extra\DoorInteractable.cs" />
@@ -1190,6 +1233,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1234,12 +1281,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
@@ -1282,10 +1329,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1296,6 +1339,14 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Common">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
@@ -1326,12 +1377,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -1344,6 +1399,10 @@
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">

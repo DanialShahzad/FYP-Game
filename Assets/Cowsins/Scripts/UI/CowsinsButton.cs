@@ -61,6 +61,13 @@ namespace cowsins
             }
         }
 
+        public void QuitApplication()
+        {
+            Debug.Log("Quitting Application");
+            Application.Quit();
+
+        }
+
     }
 #if UNITY_EDITOR
     [CustomEditor(typeof(CowsinsButton))]

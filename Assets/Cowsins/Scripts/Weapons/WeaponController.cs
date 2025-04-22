@@ -151,6 +151,8 @@ namespace cowsins
 
         private AudioClip fireSFX;
 
+        private GameObject mainPlayer;
+
         private void OnEnable()
         {
             // Subscribe to the method.
@@ -165,6 +167,8 @@ namespace cowsins
         }
         private void Start()
         {
+            mainPlayer = GameObject.FindGameObjectWithTag("Player");
+
             InitialSettings();
             CreateInventoryUI();
             GetInitialWeapons();
@@ -400,10 +404,24 @@ namespace cowsins
                 Hit(hit.collider.gameObject.layer, dmg, hit, true);
                 hitObj = hit.collider.transform;
 
-                if (hit.transform.TryGetComponent<Rigidbody>(out Rigidbody rb))
+                /*if (hit.transform.TryGetComponent<Rigidbody>(out Rigidbody rb))
                 {
                     rb.AddForceAtPosition(ray.direction * 10, hit.point, ForceMode.Impulse);
+                }*/
+
+                //Hit Blaze Enemy...........................
+                if(hit.collider.GetComponent<BlazeAI>())
+                {
+                    hit.collider.GetComponent<EnemyHealth>().maxHealth -= damagePerBullet;
+
+                    hit.collider.GetComponent<BlazeAI>().Hit(mainPlayer);
+
+                    if(hit.collider.GetComponent<EnemyHealth>().maxHealth <= 0)
+                    {
+                        hit.collider.GetComponent<BlazeAI>().Death();
+                    }
                 }
+
 
                 //Handle Penetration
                 Ray newRay = new Ray(hit.point, ray.direction);
@@ -577,7 +595,7 @@ namespace cowsins
                 case int l when l == LayerMask.NameToLayer("Enemy"):
                     impact = Instantiate(effects.enemyImpact, h.point, Quaternion.identity); // Enemy
                     impact.transform.rotation = Quaternion.LookRotation(h.normal);
-                    if (weapon != null) impactBullet = Instantiate(weapon.bulletHoleImpact.enemyImpact, h.point, Quaternion.identity);
+                    //if (weapon != null) impactBullet = Instantiate(weapon.bulletHoleImpact.enemyImpact, h.point, Quaternion.identity);
                     break;
                 default:
                     impact = Instantiate(effects.metalImpact, h.point, Quaternion.identity);

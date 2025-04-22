@@ -92,6 +92,7 @@ namespace cowsins
         /// </summary>
         public void Damage(float _damage, bool isHeadshot)
         {
+            
             // Early return if player is dashing with damage protection
             if (player.canDash && player.dashing && player.damageProtectionWhileDashing)
                 return;

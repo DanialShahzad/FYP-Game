@@ -31,7 +31,7 @@ namespace cowsins
         [ReadOnly] public float shield;
 
         [Tooltip("initial enemy health "), SerializeField]
-        protected float maxHealth;
+        public float maxHealth;
 
         [Tooltip("initial enemy shield"), SerializeField]
         protected float maxShield;
